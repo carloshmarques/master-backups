@@ -29,6 +29,11 @@ ignore.*
 bin/
 obj/
 
+*.db
+*.suo
+*.FileListAbsolute.txt
+
+
 # Large media files
 *.mp4
 *.mov
