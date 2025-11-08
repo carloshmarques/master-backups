@@ -1,4 +1,9 @@
 ###> carloshmarques/HydraLife ###
+# ============================================
+# 🧿 HydraLife Ceremonial .gitignore
+# Repositório: carloshmarques/HydraLife
+# Última revisão: 2025-11-08
+# ============================================
 
 ##### Folders #####
 build/
@@ -91,7 +96,9 @@ Desktop.ini
 Secrets/  
 
 # Ignorar backups cerimoniais
-master-backups/
+*.backup
+*.bkp   
+
 
 # Ignorar sub-repositórios Git embutidos
 LifeCicles/Assets/Themes/Colorful-Plasma-Themes/.git/
