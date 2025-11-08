@@ -1,4 +1,9 @@
 ###> carloshmarques/HydraLife ###
+# ============================================
+# 🧿 HydraLife Ceremonial .gitignore
+# Repositório: carloshmarques/HydraLife
+# Última revisão: 2025-11-08
+# ============================================
 
 ##### Folders #####
 build/
@@ -91,4 +96,16 @@ Desktop.ini
 *.pem
 *.enc
 Secrets/  
+
+##### Specific Ignored Items #####
+
+
+# Ignorar sub-repositórios Git embutidos
+LifeCicles/Assets/Themes/Colorful-Plasma-Themes/.git/
+
+# Ignorar ficheiros de índice do Visual Studio
+*.vsidx
+
+# Ignorar pasta de cache do Visual Studio
+.vs/
 ###< carloshmarques/HydraLife ###
