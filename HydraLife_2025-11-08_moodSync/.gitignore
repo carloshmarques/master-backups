@@ -1,0 +1,92 @@
+###> carloshmarques/HydraLife ###
+
+##### Folders #####
+build/
+dist/
+node_modules/
+vendor/
+var/
+.tmp/
+
+# IDE's
+.vscode/
+.idea/
+
+
+##### Files #####
+ignore.*
+*.ignore.*
+
+# Environment variables and secret keys
+.env
+.env.test
+*.pem
+
+# .gitignore
+.vs/
+*.db
+*.suo
+*.FileListAbsolute.txt
+*.mp4
+*.webm
+*.git/
+
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.webm
+*.jpg
+*.png   
+*.gif
+*.tiff  
+*.psd
+*.ai
+*.svg
+*.eps   
+
+
+##### Backup Files #####
+*.bak   
+*.old
+*.orig  
+
+
+
+##### Temporary Files #####
+*.tmp   
+*.temp
+*.swp   
+
+
+##### Logs #####
+logs/
+*.log   
+
+#### Debug Files #####
+*.stackdump
+*.crash
+
+#### OS Generated Files #####
+.DS_Store
+Thumbs.db   
+*ehthumbs.db
+Desktop.ini     
+*$RECYCLE.BIN/
+*~$*
+
+
+
+##### Secrets #####
+
+/HydraLife/Security/
+*.key
+*.pem
+*.enc
+Secrets/  
+###< carloshmarques/HydraLife ###
