@@ -90,8 +90,16 @@ Desktop.ini
 *.enc
 Secrets/  
 
-### Ignore embedd repo's ###
-LifeCicles/Assets/Themes/Colorful-Plasma-Themes/
-HydraLife_2025-11-06_backup/
+# Ignorar backups cerimoniais
+master-backups/
+
+# Ignorar sub-repositórios Git embutidos
+LifeCicles/Assets/Themes/Colorful-Plasma-Themes/.git/
+
+# Ignorar ficheiros de índice do Visual Studio
+*.vsidx
+
+# Ignorar pasta de cache do Visual Studio
+.vs/
 
 ###< carloshmarques/HydraLife ###
